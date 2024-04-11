@@ -1,4 +1,4 @@
-site_name: Learn Python
+site_name: Learn AI
 site_url: https://coreairesearch.github.io/learnai/
 site_description: Learn important Python concepts hands-on by writing Python code.
 
@@ -12,7 +12,7 @@ theme:
   features:
     - navigation.instant  
     - navigation.expand
-    - navigation.footer
+    # - navigation.footer
     - navigation.indexes
     - navigation.sections
     - navigation.tabs
@@ -20,19 +20,26 @@ theme:
     - navigation.tracking
 
   language: en
+
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
-      primary: teal
-      accent: purple 
-    - scheme: slate 
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: teal
       accent: lime
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
 
 markdown_extensions:
   - meta
