@@ -1,1 +1,1 @@
-# learnpython
+# learnai

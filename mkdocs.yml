@@ -1,9 +1,9 @@
 site_name: Learn Python
-site_url: https://coreairesearch.github.io/learnpython/
+site_url: https://coreairesearch.github.io/learnai/
 site_description: Learn important Python concepts hands-on by writing Python code.
 
-repo_url: https://github.com/coreairesearch/learnpython
-repo_name: coreairesearch/learnpython
+repo_url: https://github.com/coreairesearch/learnai
+repo_name: coreairesearch/learnai
 
 theme:
   name: material
