@@ -10,10 +10,14 @@ theme:
   # logo: assets/logo.png
   # favicon: assets/logo.png
   features:
-    - navigation.instant
+    - navigation.instant  
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
     - navigation.top
-#   palette:
-#     primary: Lime
+    - navigation.tracking
 
   language: en
   palette:
@@ -56,3 +60,18 @@ plugins:
  - search
 
 edit_uri: ""
+
+extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+
+
+# Page tree
+nav:
+  - Home: index.md
+  - Getting started:
+    - Installation: getting-started.md
