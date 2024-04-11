@@ -1,16 +1,20 @@
-site_name: Learning Python
+site_name: Learn Python
+site_url: https://coreairesearch.github.io/learnpython/
+site_description: Learn important Python concepts hands-on by writing Python code.
+
+repo_url: https://github.com/coreairesearch/learnpython
+repo_name: coreairesearch/learnpython
+
 theme:
   name: material
+  # logo: assets/logo.png
+  # favicon: assets/logo.png
   features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
+    - navigation.instant
     - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
+#   palette:
+#     primary: Lime
+
   language: en
   palette:
     - scheme: default
@@ -26,16 +30,10 @@ theme:
       primary: teal
       accent: lime
 
-extra:
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/coreairesearch
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/AngliaRuskin
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/stiphen/
-
 markdown_extensions:
+  - meta
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -51,3 +49,10 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  
+plugins:
+ - mkdocs-jupyter:
+    include_source: True
+ - search
+
+edit_uri: ""
