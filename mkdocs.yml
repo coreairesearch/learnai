@@ -62,8 +62,8 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   
 plugins:
- - mkdocs-jupyter:
-    include_source: True
+ #- mkdocs-jupyter:
+ #   include_source: True
  - blog
  - search:
     separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
