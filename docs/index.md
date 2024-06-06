@@ -4,7 +4,7 @@
 
 ## Explore. Learn. Innovate.
 
-Welcome to AI Insights, your hub for delving into the world of artificial intelligence. Here, we explore cutting-edge AI technologies, share learning experiences, and contribute to the field through thoughtful research and discussion.
+Welcome to LearnAI, your hub for delving into the world of artificial intelligence. Here, we explore cutting-edge AI technologies, share learning experiences, and contribute to the field through thoughtful research and discussion.
 
 ---
 
