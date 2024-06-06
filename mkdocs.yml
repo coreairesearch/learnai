@@ -6,7 +6,7 @@ repo_url: https://github.com/coreairesearch/learnai
 repo_name: coreairesearch/learnai
 
 theme:
-  name: material
+  name: 'material'
   # logo: assets/logo.png
   # favicon: assets/logo.png
   features:
@@ -42,6 +42,8 @@ theme:
         name: Switch to system preference
 
 markdown_extensions:
+  - toc:
+      permalink: true
   - meta
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -84,5 +86,8 @@ extra:
 # Page tree
 nav:
   - Home: index.md
+  - Pytorch & Deep Learning: 
+    - Deep Learning With Pytorch/index.md
+    - Role of PyTorch in Deep Learning: Deep Learning With Pytorch/part1-pytorch-role.md
   - Getting started:
     - Installation: getting-started.md
