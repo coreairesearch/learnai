@@ -93,8 +93,8 @@ nav:
   - Pytorch & Deep Learning: 
     - Deep Learning With Pytorch/index.md
     - Role of PyTorch in Deep Learning: Deep Learning With Pytorch/part1-pytorch-role.md
-  # - Math:
-  #   - Math/Fundamentals of Calculus/index.md
-  #   - Fundamentals of Calculus: Math/Fundamentals of Calculus/part1-fundaments-of-calculus.md
+  - Math:
+    - Math/Fundamentals of Calculus/index.md
+    - Fundamentals of Calculus: Math/Fundamentals of Calculus/part1-fundaments-of-calculus.md
   - Getting started:
     - Installation: getting-started.md
