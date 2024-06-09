@@ -21,3 +21,7 @@ Just as Python is great for general programming, PyTorch is an excellent entry p
 At its foundation, deep learning involves complex mathematical functions that map inputs to outputs. PyTorch simplifies this with its core data structure, the tensor, which is a multidimensional array similar to those in NumPy. Additionally, PyTorch supports fast mathematical operations on specialized hardware, making it efficient to create and train neural networks on both single machines and large-scale computing environments.
 
 ---
+## But Why PyTorch?
+
+
+---

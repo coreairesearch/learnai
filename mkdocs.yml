@@ -82,6 +82,10 @@ extra:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
 
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js
+  - js/solar_system.js
 
 # Page tree
 nav:
@@ -89,5 +93,8 @@ nav:
   - Pytorch & Deep Learning: 
     - Deep Learning With Pytorch/index.md
     - Role of PyTorch in Deep Learning: Deep Learning With Pytorch/part1-pytorch-role.md
+  - Math:
+    - Math/Fundamentals of Calculus/index.md
+    - Fundamentals of Calculus: Math/Fundamentals of Calculus/part1-fundaments-of-calculus.md
   - Getting started:
     - Installation: getting-started.md
